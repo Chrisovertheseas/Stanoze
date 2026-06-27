@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mémoire de Stanoze</title>
+    <meta name="description" content="Mémoire de Stanoze — PDF, cagnotte, vidéo.">
+    <meta property="og:title" content="Mémoire de Stanoze">
+    <meta property="og:description" content="PDF, cagnotte et vidéo autour de Stanoze.">
+    <meta property="og:type" content="website">
+    <link rel="preload" as="image" href="assets/archive-hero.png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="entete" id="accueil">
+      <div class="header-inner">
+        <a class="brand" href="#accueil" aria-label="Accueil">
+          <span class="brand-title">Mémoire de Stanoze</span>
+          <span class="brand-subtitle">Village arménien d'Anatolie centrale</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation-principale">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <nav class="navigation-principale" id="navigation-principale" aria-label="Navigation principale">
+          <a href="#histoire">Histoire</a>
+          <a data-link="livrePdf" href="https://memoire-stanoze.org/wp-content/uploads/2026/06/Garabed-Terzian-Stanoze-version-complete-avec-photos-beta.pdf" target="_blank" rel="noreferrer">PDF</a>
+          <a data-link="cagnotte" href="https://app.lacagnottedesproches.fr/cagnotte/histoire-des-armeniens-de-stanoze/">Cagnotte</a>
+          <a href="#video">Vidéo</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="kicker">Garabed Terzian</p>
+          <h1>Mémoire de Stanoze</h1>
+          <p>PDF · Cagnotte · Vidéo</p>
+          <div class="hero-actions" aria-label="Actions principales">
+            <a class="button button-primary" data-link="cagnotte" href="https://app.lacagnottedesproches.fr/cagnotte/histoire-des-armeniens-de-stanoze/" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">♥</span>
+              Participer à la cagnotte
+            </a>
+            <a class="button button-light" data-link="livrePdf" href="https://memoire-stanoze.org/wp-content/uploads/2026/06/Garabed-Terzian-Stanoze-version-complete-avec-photos-beta.pdf" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">↓</span>
+              Lire le PDF
+            </a>
+            <a class="button button-light" href="#video">
+              <span class="icon" aria-hidden="true">▶</span>
+              Voir la vidéo
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-panel section-anchor" id="histoire" aria-labelledby="histoire-title">
+        <div class="quote-content">
+          <div>
+            <p class="section-label">Stanoze</p>
+            <h2 id="histoire-title">Stanoze, village arménien d'Anatolie centrale</h2>
+          </div>
+          <div class="quote-text">
+            <ul class="repere-list">
+              <li>Garabed Terzian</li>
+              <li>Arméniens de Stanoze</li>
+              <li>Anatolie centrale</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="explore section-anchor" id="ressources" aria-labelledby="explore-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Accès</p>
+            <h2 id="explore-title">Lire, soutenir, regarder</h2>
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <article class="feature-card" id="documents">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M6 2h8l4 4v16H6z"></path>
+                <path d="M14 2v5h5"></path>
+                <path d="M8.5 12h7"></path>
+                <path d="M8.5 16h7"></path>
+              </svg>
+            </div>
+            <h3>Livre de Garabed Terzian</h3>
+            <a class="card-link" data-link="livrePdf" href="https://memoire-stanoze.org/wp-content/uploads/2026/06/Garabed-Terzian-Stanoze-version-complete-avec-photos-beta.pdf" target="_blank" rel="noreferrer">Lire le PDF</a>
+          </article>
+
+          <article class="feature-card support" id="soutenir">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M20.4 5.6a5 5 0 0 0-7.1 0L12 6.9l-1.3-1.3a5 5 0 0 0-7.1 7.1L12 21l8.4-8.3a5 5 0 0 0 0-7.1z"></path>
+              </svg>
+            </div>
+            <h3>Cagnotte de traduction</h3>
+            <a class="card-link" data-link="cagnotte" href="https://app.lacagnottedesproches.fr/cagnotte/histoire-des-armeniens-de-stanoze/" target="_blank" rel="noreferrer">Participer</a>
+          </article>
+
+          <article class="feature-card" id="video-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M4 5h16v14H4z"></path>
+                <path d="M10 9l5 3-5 3z"></path>
+              </svg>
+            </div>
+            <h3>Vidéo de témoignage</h3>
+            <a class="card-link" href="#video">Regarder</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="video-section section-anchor" id="video" aria-labelledby="video-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Témoignage</p>
+            <h2 id="video-title">Vidéo du projet</h2>
+          </div>
+        </div>
+        <div class="video-shell">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/lPQADpsjyA0"
+              title="Vidéo du projet Mémoire de Stanoze"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <p class="video-link">
+          <a href="https://youtu.be/lPQADpsjyA0" target="_blank" rel="noreferrer">Voir la vidéo sur YouTube</a>
+        </p>
+      </section>
+
+      <section class="archive-band" aria-labelledby="archive-title">
+        <div class="archive-image" role="img" aria-label="Composition d'archives, livre et photographies anciennes"></div>
+        <div class="archive-copy">
+          <p class="section-label">Repères</p>
+          <h2 id="archive-title">Garabed Terzian · Traduction · Vidéo</h2>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pied">
+      <div>
+        <strong>Mémoire de Stanoze</strong>
+        <span>PDF · Cagnotte · Vidéo</span>
+      </div>
+      <div class="footer-links">
+        <a data-link="livrePdf" href="https://memoire-stanoze.org/wp-content/uploads/2026/06/Garabed-Terzian-Stanoze-version-complete-avec-photos-beta.pdf" target="_blank" rel="noreferrer">PDF</a>
+        <a data-link="cagnotte" href="https://app.lacagnottedesproches.fr/cagnotte/histoire-des-armeniens-de-stanoze/" target="_blank" rel="noreferrer">Cagnotte</a>
+        <a href="#video">Vidéo</a>
+      </div>
+    </footer>
+  </body>
+</html>
